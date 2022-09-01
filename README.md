@@ -1,18 +1,30 @@
 # DL-SPU
 Deep Learning-enabled Spatial Phase Unwrapping for 3D Measurement
 
+## Preamble
+This code was developed and tested with python 3.6, Pytorch 1.8.0, and CUDA 10.2 on Ubuntu 18.04. It is based on [Eduardo Romera's ERFNet implementation (PyTorch Version)](https://github.com/Eromera/erfnet_pytorch). 
+
+## Prerequisite
+Please install the required packages: 
+```
+pip install -r requirement.txt
+```
+
 ## Datasets
 ### Training set  
-Please download them from [Part1](https://pan.baidu.com/s/1j9VzSCGPLqq8LyEhst_62g?pwd=tyrw), [Part2](https://pan.baidu.com/s/1nqYe3FavPxUW_GDr2pMvxQ?pwd=p67e), [Part3](https://pan.baidu.com/s/1Mmso2U2jCH2IuwNiR7cWcA?pwd=6u87) and [Part4](https://pan.baidu.com/s/1K-Y8hXEX2TS3nIQcRSfKDA?pwd=yxul)
+Please download them from [Part1](https://pan.baidu.com/s/1j9VzSCGPLqq8LyEhst_62g?pwd=tyrw), [Part2](https://pan.baidu.com/s/1nqYe3FavPxUW_GDr2pMvxQ?pwd=p67e), [Part3](https://pan.baidu.com/s/1Mmso2U2jCH2IuwNiR7cWcA?pwd=6u87) and [Part4](https://pan.baidu.com/s/1K-Y8hXEX2TS3nIQcRSfKDA?pwd=yxul).
 ### Validation set  
 Please download it from [here](https://pan.baidu.com/s/1mEGDVNzrPY1YHOId_o4aVw?pwd=b86e)
 
+## Training
+Training the DL-SPU model from scratch by running
+```bash
+python train/train.py
+```
+Note: Please prepare the training datset before trainging.
+
 ## Pretrained model
-The pretrained network will be available soon.
-
-## Source code
-The source code will be available soon.
-
+Our pretrained model is in the file of "model_best.pth".
 
 ## Citation
 ```
