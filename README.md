@@ -1,5 +1,8 @@
 # DL-SPU
-Deep Learning-enabled Spatial Phase Unwrapping for 3D Measurement
+Deep learning-enabled invalid-point removal for spatial phase unwrapping of 3D measurement
+
+## Paper
+Please click this (https://authors.elsevier.com/a/1gj%7EL6wNUutJV)
 
 ## Preamble
 This code was developed and tested with python 3.6, Pytorch 1.8.0, and CUDA 10.2 on Ubuntu 18.04. It is based on [Eduardo Romera's ERFNet implementation (PyTorch Version)](https://github.com/Eromera/erfnet_pytorch). 
@@ -28,14 +31,14 @@ Our pretrained model is in the file of "model_best.pth".
 
 ## Citation
 ```
-@article{Luo2022,
-archivePrefix = {arXiv},
-arxivId = {2208.03524},
+@article{Luo2023,
 author = {Luo, Xiaolong and Song, Wanzhong and Bai, Songlin and Li, Yu and Zhao, Zhihe},
-eprint = {2208.03524},
-title = {{Deep Learning-enabled Spatial Phase Unwrapping for 3D Measurement}},
-url = {http://arxiv.org/abs/2208.03524},
-year = {2022}
+journal = {Optics {\&} Laser Technology},
+number = {March},
+pages = {109340},
+title = {{Deep learning-enabled invalid-point removal for spatial phase unwrapping of 3D measurement}},
+volume = {163},
+year = {2023}
 }
 ```
 
